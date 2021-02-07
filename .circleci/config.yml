@@ -13,7 +13,7 @@ jobs:
    steps:
        - checkout 
        - run:
-          nmp i 
+          npm i 
        - run:
           npm run lint
   build:
